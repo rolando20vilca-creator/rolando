@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Rolando Vilca Vilca</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .cv-container {
+            width: 800px;
+            background: #ffffff;
+            display: flex;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+            min-height: 1050px;
+        }
+
+        /* --- COLUMNA IZQUIERDA (OSCURA) --- */
+        .left-column {
+            width: 35%;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .profile-img-container {
+            width: 100%;
+            height: 220px;
+            background-color: #333333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            font-size: 14px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .profile-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name-title {
+            text-transform: uppercase;
+        }
+
+        .name-title h1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: 1px;
+        }
+
+        .name-title h2 {
+            font-size: 13px;
+            font-weight: 300;
+            color: #cccccc;
+            margin-top: 8px;
+            letter-spacing: 1px;
+        }
+
+        .sidebar-section h3 {
+            font-size: 14px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .sidebar-section p, .sidebar-section li {
+            font-size: 12px;
+            line-height: 1.6;
+            color: #dddddd;
+        }
+
+        .contact-list {
+            list-style: none;
+        }
+
+        .contact-list li {
+            margin-bottom: 10px;
+            word-break: break-all;
+        }
+
+        .skills-list {
+            list-style-type: disc;
+            padding-left: 15px;
+        }
+
+        .skills-list li {
+            margin-bottom: 6px;
+        }
+
+        /* --- COLUMNA DERECHA (CLARA) --- */
+        .right-column {
+            width: 65%;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .main-section-title {
+            background-color: #888888;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 6px 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .item-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #222222;
+            text-transform: uppercase;
+        }
+
+        .item-subtitle {
+            font-size: 13px;
+            font-weight: 600;
+            color: #555555;
+            margin-bottom: 2px;
+        }
+
+        .item-date {
+            font-size: 12px;
+            color: #888888;
+            margin-bottom: 6px;
+        }
+
+        .item-description {
+            font-size: 12px;
+            color: #444444;
+            line-height: 1.5;
+        }
+
+        .item-description ul {
+            list-style-type: disc;
+            padding-left: 18px;
+            margin-top: 5px;
+        }
+
+        .item-description li {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="left-column">
+            <div class="profile-img-container">
+                <!-- Puedes cambiar la ruta de la imagen por tu foto -->
+                <span style="padding: 10px; text-align: center;">[ FOTO AQUÍ ]</span>
+            </div>
+
+            <div class="name-title">
+                <h1>ROLANDO<br>VILCA VILCA</h1>
+                <h2>TECNÓLOGO EN COMPUTACIÓN E INFORMÁTICA</h2>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>PERFIL</h3>
+                <p>Técnico y especialista apasionado por la tecnología, la programación y el soporte de hardware. Experiencia en mantenimiento de computadoras, redes de fibra óptica y desarrollo con sistemas de código abierto. Habilidad comprobada en la enseñanza de programación, electrónica con Arduino y diseño digital.</p>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>CONTACTO</h3>
+                <ul class="contact-list">
+                    <li>📱 963258741</li>
+                    <li>✉️ rolan@gmail.com</li>
+                    <li>📍 Santa Lucía, Puno</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>HABILIDADES</h3>
+                <ul class="skills-list">
+                    <li>Programación y Robótica con Arduino</li>
+                    <li>Mantenimiento y Formateo de PC</li>
+                    <li>Diseño Digital</li>
+                    <li>Codificación y Desarrollo Web</li>
+                    <li>Instalación de Fibra Óptica</li>
+                    <li>Docencia e Instrucción Técnica</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- COLUMNA DERECHA -->
+        <div class="right-column">
+            
+            <!-- EDUCACIÓN -->
+            <section>
+                <div class="main-section-title">EDUCACIÓN</div>
+                
+                <div class="item">
+                    <div class="item-title">INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PÚBLICO SANTA LUCÍA</div>
+                    <div class="item-subtitle">Educación Superior Tecnológica</div>
+                </div>
+
+                <div class="item">
+                    <div class="item-title">COLEGIO JOSÉ CÁRLOS MARIÁTEGUI</div>
+                    <div class="item-subtitle">Educación Secundaria</div>
+                </div>
+
+                <div class="item">
+                    <div class="item-title">ESCUELA 71009</div>
+                    <div class="item-subtitle">Educación Primaria</div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCIA Y PRÁCTICAS -->
+            <section>
+                <div class="main-section-title">EXPERIENCIA Y PRÁCTICAS</div>
+
+                <div class="item">
+                    <div class="item-title">INSTRUCTOR DE COMPUTACIÓN, ARDUINO Y CÓDIGO</div>
+                    <div class="item-subtitle">Docencia y Capacitación Técnica</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Enseño lógica de programación, codificación estructurada y desarrollo de proyectos prácticos.</li>
+                            <li>Capacito a alumnos en la creación e integración de proyectos electrónicos con placas Arduino.</li>
+                            <li>Imparto cursos sobre formateo, configuración y mantenimiento informático.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-title">PRÁCTICAS EN FIBRA ÓPTICA Y REDES</div>
+                    <div class="item-subtitle">Técnico en Telecomunicaciones</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Apoyo en el tendido, empalme y diagnóstico de redes de fibra óptica.</li>
+                            <li>Verificación de conectividad y optimización de señal de red.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-title">PRÁCTICAS EN MANTENIMIENTO DE COMPUTADORAS</div>
+                    <div class="item-subtitle">Soporte Técnico Hardware / Software</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Diagnóstico, formateo e instalación de sistemas operativos y software especializado.</li>
+                            <li>Mantenimiento preventivo y correctivo de componentes informáticos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONOCIMIENTOS TÉCNICOS -->
+            <section>
+                <div class="main-section-title">ESPECIALIDADES / COMPETENCIAS</div>
+                
+                <div class="item">
+                    <div class="item-title">EXPERTO EN ARDUINO Y ROBÓTICA</div>
+                    <div class="item-description">Diseño y programación de circuitos electrónicos, sensores y automatización.</div>
+                </div>
+
+                <div class="item">
+                    <div class="item-title">DISEÑO Y FORMATEO INFORMÁTICO</div>
+                    <div class="item-description">Creación de piezas gráficas visuales y formateo completo de equipos informáticos.</div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+</body>
+</html>
